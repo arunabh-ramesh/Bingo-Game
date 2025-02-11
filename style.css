@@ -1,0 +1,111 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(15, auto);
+}
+
+.checkbox__container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border-width: 0 3px 3px 0;
+    content:"Y";
+}
+/*202040
+*/
+#sameLine {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  /*width: 200px;*/
+  /*height: 200px;*/
+  /*place-self: center; */
+}
+
+#callingBall {
+    display: grid;
+    width: 100px;
+    height: 100px;
+}
+
+#winCon {
+    display: grid;
+    grid-template-columns: repeat(5, auto); 
+    border-collapse: collapse;
+    border: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    width: 25px;
+    height: 25px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 25%;
+  height: 10px;
+  border-radius: 12px;
+  background: #FF0000;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 23px;
+  height: 24px;
+  border: 10;
+  background: #000000;
+  background-image: url('images/eagle.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 23px;
+  height: 24px;
+  border: 0;
+  border-radius: 50%;
+  background: #000000;
+  background-image: url('images/eagle.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+
+#startButton {
+  background-color: #FF0000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#resetButton {
+  background-color: #FF0000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.circleText {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
