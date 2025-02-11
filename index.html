@@ -1,0 +1,51 @@
+<!doctype html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <h1> The amazing BINGO.</h1>
+    <body style="background-color:#202040;">
+        <div class="grid-container" id = "sameLine">
+        <div class="grid-container" id ="callingBall">
+        </div>
+        <div class="grid" id ="recent1Ball">
+        </div>
+        <div class="grid" id ="recent2Ball">
+        </div>
+        <div class="grid" id ="recent3Ball">
+        </div>
+        </div>
+        
+        <div class="grid-container" id ="winCon">
+            <label class="checkbox__container">
+                <input type="checkbox" id="BINGOcheckbox" />
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        </br>
+        <div class="grid-container" id ="calledBalls">
+            
+        </div>
+        <div class="slidecontainer">
+            <span id="demo"></span>
+            <p id='output'class="card-text"> Speed: <span id="speedOutput"></span></p>
+            <input type="range" min="1" max="20" value="1" class="slider" id="speedRange" step="0.1">
+        </div>
+        <button id= 'startButton' type="startButton">Start Game</button>
+        <button id= 'resetButton' type="resetButton">Reset Game</button>
+        
+        <label for="winCon">Choose a pattern:</label>
+        
+        <select name="win" id="winCons">
+          <option value="5">5 in a line</option>
+          <option value="X">X</option>
+          <option value="blackout">Blackout</option>
+          <option value="aTW">Around the World</option>
+          <option value="Custom">Custom</option>
+        </select>
+        
+        </br>
+        
+        
+        <script src="script.js"> </script>
+    </body>
+</html>
