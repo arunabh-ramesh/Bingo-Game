@@ -323,5 +323,3 @@ function testSingle() {
     console.log("Missing Values: " + missingValues);
     console.log("Repeat Values: " + repeatValues);
 }
-
-
