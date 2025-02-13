@@ -11,8 +11,7 @@
     border-width: 0 3px 3px 0;
     content:"Y";
 }
-/*202040
-*/
+
 #sameLine {
   display: grid;
   grid-template-columns: repeat(4, 100px);
