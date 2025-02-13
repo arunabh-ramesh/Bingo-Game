@@ -102,7 +102,9 @@
   display: inline-block;
   font-size: 16px;
 }
-
+#output {
+  bakcground-color: FFFFFF;
+}
 .circleText {
     font-family: Georgia, serif;
     font-size: 40px;
