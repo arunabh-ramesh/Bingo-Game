@@ -74,7 +74,7 @@
   border: 0;
   border-radius: 50%;
   background: #000000;
-  background-image: url('images/eagle.png');
+  background-image: url('/images/eagle.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
